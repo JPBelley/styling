@@ -71,7 +71,7 @@ footer .site-info {
 
 .wp-block-button .has-background-background-color[class]:hover {
   background-color: #FFD200 !important;
-  color: #fff;
+  color: #fff !important;
 }
 
 .footer-navigation {
