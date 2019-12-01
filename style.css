@@ -37,7 +37,7 @@ footer.site-footer {
   max-width: 100%;
 
 }
-.footer-navigation .footer-menu a {
+.footer-navigation .footer-menu a:link, .footer-navigation .footer-menu a:visited {
   color: #fff;
 }
 
