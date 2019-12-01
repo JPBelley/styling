@@ -16,6 +16,10 @@ h1, h2, h3, h4, h5, h6 {
   transform: translateY(-27%);
 }
 
+.main-navigation .sub-menu .menu-item a::before {
+  content: none;
+}
+
 #site-navigation {
   margin-top: 0 !important;
 }
