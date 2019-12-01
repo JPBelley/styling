@@ -69,6 +69,11 @@ footer .site-info {
   pointer-events: none;
 }
 
+.wp-block-button .has-background-background-color[class]:hover {
+  background-color: #FFD200 !important;
+  color: #fff;
+}
+
 .footer-navigation {
   margin: 0 auto;
   max-width: 80%;
