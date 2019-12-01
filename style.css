@@ -1,4 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Oswald&display=swap');
+
+
 html,
 body {
   background: black !important;
+  font-family: 'Open Sans';
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Oswald';
 }
