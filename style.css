@@ -50,7 +50,8 @@ footer.site-footer {
 .site-header-wrap .main-navigation > div > ul > li.current-menu-item li:hover > a, 
 .site-header-wrap .main-navigation > div > ul > li.current-menu-item li.focus > a, 
 .site-header-wrap .main-navigation > div > ul > li.current-menu-item li.current-menu-item > a {
-  color: #FFD200;
+  background-color: #FFD200;
+  color: #fff;
 }
 
 @media (min-width: 560px) and (max-width: 781px) {
