@@ -54,6 +54,10 @@ footer.site-footer {
   color: #fff;
 }
 
+footer .site-info {
+  display: none;
+}
+
 @media (min-width: 560px) and (max-width: 781px) {
   body:not(.fse-enabled) .main-navigation a {
     font-size: 0.7rem;
