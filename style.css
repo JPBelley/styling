@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans|Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Oswald&display=swap');
 
 
 html,
@@ -16,12 +16,20 @@ h1, h2, h3, h4, h5, h6 {
   transform: translateY(-27%);
 }
 
+.main-navigation .sub-menu .menu-item a {
+  font-family: 'Open Sans';
+  font-weight: 700;
+}
 .main-navigation .sub-menu .menu-item a::before {
   content: none;
 }
 
 #site-navigation {
   margin-top: 0 !important;
+}
+
+header.entry-header {
+  display: none;
 }
 
 @media (min-width: 560px) and (max-width: 781px) {
