@@ -32,6 +32,15 @@ header.entry-header {
   display: none;
 }
 
+footer.site-footer {
+  background: #303030;
+  max-width: 100%;
+
+}
+.footer-navigation .footer-menu a {
+  color: #fff;
+}
+
 @media (min-width: 560px) and (max-width: 781px) {
   body:not(.fse-enabled) .main-navigation a {
     font-size: 0.7rem;
