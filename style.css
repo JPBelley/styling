@@ -54,8 +54,17 @@ footer.site-footer {
   color: #fff;
 }
 
+.footer-navigation .footer-menu a:hover {
+  color: #FFD200;
+}
+
 footer .site-info {
   display: none;
+}
+
+.footer-navigation {
+  margin: 0 auto;
+  max-width: 80%;
 }
 
 @media (min-width: 560px) and (max-width: 781px) {
