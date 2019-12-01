@@ -37,8 +37,20 @@ footer.site-footer {
   max-width: 100%;
 
 }
-.footer-navigation .footer-menu a:link, .footer-navigation .footer-menu a:visited {
+.footer-navigation .footer-menu {
   color: #fff;
+}
+
+.site-header-wrap .main-navigation > div > ul > li:hover li:hover > a, 
+.site-header-wrap .main-navigation > div > ul > li:hover li.focus > a, 
+.site-header-wrap .main-navigation > div > ul > li:hover li.current-menu-item > a, 
+.site-header-wrap .main-navigation > div > ul > li.focus li:hover > a, 
+.site-header-wrap .main-navigation > div > ul > li.focus li.focus > a, 
+.site-header-wrap .main-navigation > div > ul > li.focus li.current-menu-item > a, 
+.site-header-wrap .main-navigation > div > ul > li.current-menu-item li:hover > a, 
+.site-header-wrap .main-navigation > div > ul > li.current-menu-item li.focus > a, 
+.site-header-wrap .main-navigation > div > ul > li.current-menu-item li.current-menu-item > a {
+  color: #FFD200;
 }
 
 @media (min-width: 560px) and (max-width: 781px) {
