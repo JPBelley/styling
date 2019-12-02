@@ -54,6 +54,10 @@ footer.site-footer {
   color: #fff;
 }
 
+.main-navigation #toggle:focus + #toggle-menu:active, .main-navigation #toggle:focus + #toggle-menu:focus, .main-navigation #toggle:focus + #toggle-menu:hover, #toggle-menu:active, #toggle-menu:focus, #toggle-menu:hover {
+  background-color: #FFD200;
+}
+
 .footer-navigation .footer-menu a:hover {
   color: #FFD200;
 }
@@ -94,6 +98,9 @@ footer .site-info {
     width: 125px;
     transform: translateY(-13%);
     right: 0;
+  }
+  .main-navigation > div > ul > li > .sub-menu {
+    padding-left: 20px;
   }
 }
 @media only screen and (min-width: 1024px) {
