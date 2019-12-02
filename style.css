@@ -87,10 +87,10 @@ footer .site-info {
   text-align: justify;
 }
 
-.wp-block-group a {
+.wp-block-group h4 a {
   color: #FFD200;
 }
-.wp-block-group a:hover {
+.wp-block-group h4 a:hover {
   color: #303030;
 }
 
