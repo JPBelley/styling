@@ -69,7 +69,7 @@ footer .site-info {
   margin-top: 0 !important;
 }
 
-#menu-item-166 {
+#menu-item-166 > a {
   pointer-events: none;
 }
 
