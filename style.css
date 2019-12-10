@@ -10,7 +10,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .site-logo {
-  width: 150px;
+  width: 75px;
   position: absolute;
   top: 0;
   transform: translateY(-27%);
@@ -69,7 +69,7 @@ footer .site-info {
   margin-top: 0 !important;
 }
 
-.menu-item-has-children > a {
+#menu-item-166 {
   pointer-events: none;
 }
 
@@ -90,6 +90,7 @@ footer .site-info {
 .wp-block-group h4 a {
   color: #FFD200;
 }
+
 .wp-block-group h4 a:hover {
   color: #303030;
 }
@@ -102,7 +103,7 @@ footer .site-info {
 
 @media (max-width: 559px) {
   .site-logo {
-    width: 125px;
+    width: 60px;
     transform: translateY(-13%);
     right: 0;
   }
